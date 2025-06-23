@@ -14,7 +14,7 @@ int main(){
     else if(*(p+i)>= 80 && *(p+i)<= 83 ) sum+=8;
     else if(*(p+i)>= 84 && *(p+i)<= 86 ) sum+=9;
     else if(*(p+i)>= 87 && *(p+i)<= 90 ) sum+=10;
-    else sum=11;
+    else sum+=11;
    i++;
   }
   printf("%d",sum);
